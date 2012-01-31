@@ -1,0 +1,49 @@
+/* http://meyerweb.com/eric/tools/css/reset/ + http://html5doctor.com/html-5-reset-stylesheet/ */
+/* v2.0 | 20110126 + v1.6.1 | Last Updated: 2010-09-17 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline; background: transparent; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+body { font: 62.5% Arial, Helvetica, Verdana, sans-serif; line-height: 1em; color: #464646; background: #fff; -webkit-text-size-adjust: 100%; }
+h1 { font-size: 1.6em; font-weight: normal; line-height: 2.4em; }
+p { font-size: 1.1em; line-height: 1.6em; margin: 0.8em 0; }
+p p { font-size: 1em; }
+a { color: #464646; }
+a:hover, a:focus { text-decoration: none; }
+em, i { font-style: italic; }
+strong, b { font-weight: bold; }
+sup, sub { vertical-align: baseline; position: relative; top: -0.4em; }
+sub { top: 0.4em; }
+
+header { width: 750px; margin: 0 auto; }
+header h1 { text-align: center; }
+
+section { font-size: 1.1em; width: 750px; margin: 40px auto; }
+section table { width: 100%; margin: 0 0 16px 0; }
+section table tr { }
+section table th { font-weight: bold; }
+section table th, section table td { padding: 4px; border: 1px solid #ccc; text-align: left; white-space: nowrap; }
+section th p, section td p { margin: 0; }
+
+footer { width: 750px; margin: 0 auto 20px auto; }
+
+.red { background: #dd8694; }
+.green { background: #bdc698; }
+
+.gold { background: #f8df17; } /* FFBE2C*/
+.silver { background: #F2F2F2; } /* E7E8E7 / EFF0EB */
+.bronze { background: #FFA776; } /* E5966A / E9986B */
+
+/* CLEARFIX */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+spacer-gif { display: none; }
