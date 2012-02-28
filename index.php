@@ -318,14 +318,6 @@ for ( $i = 0; $i < count( $entries_array ); $i++ ) {
 		</tbody>
 	</table>
 </section>
-<footer>
-	<h2>BUGS:</h2>
-	<ul>
-		<li>Hvis en sv&oslash;mmer har flere l&oslash;b i resultat end i anmeldelse (eks. ved f&oslash;rste svømmer i holdkap) g&aring;r det galt - l&oslash;bet tages ikke med i listen.<br /><em>detaljer: '$result_data[8] != 'FL' - removes first swimmer in relays'</em></li>
-		<li>Hvis en sv&oslash;mmer er med i resultat men ikke i anmeldelse (eks. ved sv&oslash;mmer udenfor konkurrence - 'rank' er tomt) g&aring;r det galt.</li>
-		<li>Hvis en sv&oslash;mmer er med i resultat men ikke i anmeldelse (eks. ved eftertilmelding) g&aring;r det galt.</li>
-	</ul>
-</footer>
 </body>
 
 </html>
