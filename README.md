@@ -2,6 +2,8 @@
 
 Online tool to easly calculate swimmer results after an event.
 
+STILL WORK IN PROGRESS! So don't expect it to work flawless...
+
 # Examples
 
 Currently no examples...
